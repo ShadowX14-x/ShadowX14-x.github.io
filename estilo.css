@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+SC:wght@300;400;500;600;700&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body {
+
+    background: url('fondo.jpg') no-repeat center center/cover;
+    color: white;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 0 0 15px;
+    font-family: 'Cinzel', cursive;
+    
+}
+
+h2{
+    font-size: 50px;
+    margin: 0 0 15px;
+    font-family: 'Cormorant SC';   
+    font-style:normal;
+}
+
+/* Cada sección uno abajo del otro */
+.cuenta-regresiva,
+.seccion-musica,
+.seccion-mapa,
+.botones {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+/* Música y Mapa */
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa {
+    height: 250px;
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background: #0f169e;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+
+}
+
+.boton:hover {
+    background: #1119b3;
+    transform: translateY(-3px);
+}
+
+/* Cuenta regresiva */
+.cuenta-regresiva h2 {
+    font-size: 24px;
+}
+
+#contador {
+    font-size: 28px;
+    font-weight: bold;
+}
